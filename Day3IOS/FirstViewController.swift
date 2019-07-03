@@ -65,6 +65,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "First"
+        
         labelForSlider.text =  String(Int(getCurrentValueOfSlider.value))
          labelForSteeper.text = String(Int(getStepperCurrentValue.value))
         
